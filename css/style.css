@@ -59,7 +59,6 @@ p {
 form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -110,10 +109,59 @@ h2 {
     color: #404040;
     margin-top: 1.75em;
     margin-bottom: 0;
+    line-height: 1;
 }
 
+.main-cta {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #F18119;
+    text-transform: uppercase;
+    margin-top: 0;
+}
 
+.main-text {
+    font-weight: 300;
+    margin-top: 1.5em;
+}
+
+.small {
+    font-size: .625rem;
+    color: #989898;
+    margin-top: 1.3em;
+    margin-bottom: 6em;
+}
+
+/* =============
+    BUTTONS
+================*/
+
+.btn {
+    margin-top: 1em;
+    height: 2.5rem;
+    width: 15.8rem;
+    border: 1px solid #818181;
+    border-radius: 7px;
+
+    color: #404040;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.btn-sumbit {
+    background: linear-gradient(270deg, #FF713B 0%, #FFA51D 100%);
+    font-size: .625rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
 
 /* =============
     MEDIA
 ================*/
+
+@media (min-width: 750px) {
+    
+}
