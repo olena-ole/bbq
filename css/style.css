@@ -1,0 +1,119 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color: #5A5A5A;
+    line-height: 1.6;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* =============
+    LAYOUT
+===============*/
+
+.container {
+    width: 100%;
+}
+
+.header {
+    min-height: 358px;
+
+    background-image: url(../images/dark-ribs.jpg);
+    background-position: center;
+    background-size: cover;
+
+    color: #F18119;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-bottom: 2em;
+}
+
+.header-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.main {
+    text-align: center;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* =============
+    TYPOGRAPHY
+================*/
+
+h1 {
+    font-size: 2.25rem;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h1 strong {
+    font-weight: 900;
+}
+
+.header-title {
+    margin: 2em 0;
+}
+
+.header-caption {
+    display: inline-block;
+    width: 18em;
+    margin: 0 auto;
+    font-size: .625rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: #F18119;
+    text-transform: uppercase;
+    padding-top: .6em;
+    border-top: 7px solid;
+}
+
+h2, .header-cta {
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.header-cta {
+    color: #F18119;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #404040;
+    margin-top: 1.75em;
+    margin-bottom: 0;
+}
+
+
+
+/* =============
+    MEDIA
+================*/
