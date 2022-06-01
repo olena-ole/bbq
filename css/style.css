@@ -97,7 +97,7 @@ h1 strong {
 
 h2, .header-cta {
     font-weight: 900;
-    font-size: 21px;
+    font-size: 1.325em;
 }
 
 .header-cta {
@@ -144,9 +144,15 @@ h2 {
     border-radius: 7px;
 
     color: #404040;
+    font-family: inherit;
     font-weight: 300;
     text-align: center;
     letter-spacing: 1px;
+}
+
+.btn:hover,
+.btn:focus {
+    border: #FF713B;
 }
 
 .btn-sumbit {
@@ -156,6 +162,13 @@ h2 {
     letter-spacing: 1.5px;
     color: #FFFFFF;
     text-transform: uppercase;
+    border: none;
+}
+
+.btn.btn-submit:hover,
+.btn.btn-submit:focus {
+    border: none;
+    background-color: #FFA51D;
 }
 
 /* =============
@@ -163,5 +176,48 @@ h2 {
 ================*/
 
 @media (min-width: 750px) {
+    body {
+        font-size: 1.125rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .header {
+        width: 60%;
+        justify-content: start;
+    }
+
+    .header-title-container {
+        justify-content: start;
+    }
+
+    .header-title {
+        margin-top: 3em;
+        margin-bottom: 0;
+    }
+
+    .main {
+        width: 40%;
+        align-self: center;
+    }
+
+    .main-text {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     
+
 }
