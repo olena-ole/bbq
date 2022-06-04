@@ -19,18 +19,19 @@
             <p class="header-caption">Mouthwateringly delicious</p>
         </header>
 
-        <main class="main">
+        <main class="main" id="main-content">
             <h2 class="main-title">Become a BBQ master!</h2>
             <p class="main-cta">Register Today</p>
             <p class="main-text">BBQ isn't just standing in front of your grill with it on full blast and hoping for the best. It's an art! One way to speed up the process is to learn from the best. You can do just that by signing up for this free webinar!</p>
-            <form action="#" method="post" class="main-form">
-                <input type="text" class="btn" placeholder="first name" required>
-                <input type="email" class="btn" placeholder="email" required>
+            <form id="email-collector" action="#" method="post" class="main-form">
+                <input name="userName" type="text" class="btn" placeholder="first name" required>
+                <input name="userEmail" type="email" class="btn" placeholder="email" required>
                 <button class="btn btn-sumbit" type="submit">Register</button>
             </form>
             <p class="small">We'll never share your information <br> without your permission</p>
         </main>
 
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
