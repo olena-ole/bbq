@@ -30,7 +30,8 @@ p {
     min-height: 50vh;
 
     background-color: #404040;
-    background-image: url(../images/dark-ribs.jpg);
+    background-image: url(../images/ribs.jpg);
+    background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
 
@@ -90,6 +91,7 @@ h1 strong {
     text-transform: uppercase;
     padding-top: .6em;
     border-top: 7px solid;
+    border-image: linear-gradient(to left, #FF713B, #FFA51D) 1;
 }
 
 h2, .header-cta {
