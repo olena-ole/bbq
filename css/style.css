@@ -52,12 +52,17 @@ p {
     margin: 0 auto;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.header > *,
+.main > * {
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.main-form {
+    width: 80%;
+    max-width: 300px;
+}
 
 /* =============
     TYPOGRAPHY
@@ -124,13 +129,14 @@ h2 {
 }
 
 /* =============
-    BUTTONS
+    FORM & BUTTONS
 ================*/
 
 .btn {
+    width: 100%;
+
+    padding: .5em;
     margin-top: 1em;
-    height: 2.5rem;
-    width: 15.8rem;
     border: 1px solid #818181;
     border-radius: 7px;
 
@@ -139,35 +145,30 @@ h2 {
     font-weight: 300;
     text-align: center;
     letter-spacing: 1px;
-}
 
-.btn:hover,
-.btn:focus {
-    border: #FF713B;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 500ms;
 }
 
 .btn-sumbit {
-    background: linear-gradient(270deg, #FF713B 0%, #FFA51D 100%);
+    background-image: linear-gradient(to left, #FF713B, #FFA51D);
+    
     font-size: .625rem;
     font-weight: 900;
     letter-spacing: 1.5px;
     color: #FFFFFF;
     text-transform: uppercase;
+
+    padding: 1em 1.5em;
     border: none;
 }
 
-.btn.btn-submit:hover,
-.btn.btn-submit:focus {
-    border: none;
-    background-color: #FFA51D;
-}
 
-.header > *,
-.main > * {
-    max-width: 460px;
-    margin-left: auto;
-    margin-right: auto;
-}
+.btn:hover,
+.btn:focus {
+    transform: scale(1.1);
+} 
 
 /* =============
     MEDIA
